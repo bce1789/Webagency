@@ -143,11 +143,11 @@ nav ul
 	
 	
 }
-a:focus
+a:hover
 {
 	border-top: 3px solid black;
 	border-color: rgb(92, 173, 211);
-	padding-top: 30px;
+	padding-top: 10px;
  	
 }
 nav li
@@ -472,7 +472,7 @@ nav li
 	font-size: 16px;
 	color: #777b80;
 }
-#projets li:focus
+#projets li:hover
 {
 	background-color: rgb(92, 173, 211);
 }
