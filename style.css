@@ -1,0 +1,803 @@
+/*police*/
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('webagency_images/fonts/roboto-black-webfont.woff2') format('woff2'),
+    	 url('webagency_images/fonts/Roboto-Black.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('webagency_images/fonts/roboto-blackitalic-webfont.woff2') format('woff2'),
+   		 url('webagency_images/fonts/Roboto-BlackItalic.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('webagency_images/fonts/roboto-bold-webfont.woff2') format('woff2'),
+    	 url('webagency_images/fonts/Roboto-Bolt.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('webagency_images/fonts/roboto-bolditalic-webfont.woff2') format('woff2'),
+   		 url('webagency_images/fonts/Roboto-Bolt-Italic.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('webagency_images/fonts/roboto-italic-webfont.woff2') format('woff2'),
+    	 url('webagency_images/fonts/Roboto-Italic.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('webagency_images/fonts/roboto-light-webfont.woff2') format('woff2'),
+    	 url('webagency_images/fonts/Roboto-Light.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('webagency_images/fonts/roboto-lightitalic-webfont.woff2') format('woff2'),
+   		 url('webagency_images/fonts/Roboto-LightItalic.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('webagency_images/fonts/roboto-medium-webfont.woff2') format('woff2'),
+   		 url('webagency_images/fonts/Roboto-Medium.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('webagency_images/fonts/roboto-mediumitalic-webfont.woff2') format('woff2'),
+    	 url('webagency_images/fonts/Roboto-MediumItalic.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('webagency_images/fonts/roboto-regular-webfont.woff2') format('woff2'),
+    	 url('webagency_images/fonts/Roboto-Redular.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('webagency_images/fonts/roboto-thin-webfont.woff2') format('woff2'),
+    	 url('webagency_images/fonts/Roboto-Thin.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('webagency_images/fonts/roboto-thinitalic-webfont.woff2') format('woff2'),
+    	 url('webagency_images/fonts/Roboto-ThinItalic.ttf') format('ttf'),
+         url('webagency_images/fonts/roboto-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*FIN police*/
+
+						/* EN tête */
+header
+{
+
+	
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	height: 55px;
+	opacity: 0.7;
+}
+
+#logo
+{
+	
+	left: 70px;
+	top: 30px;
+	width: 100%;
+	
+}
+
+/*Menu déroulant fixe */
+nav ul
+{
+
+	display: flex;
+	position: relative;
+	left: 70%;
+	bottom: 55px;
+	
+	
+}
+a:focus
+{
+	border-top: 3px solid black;
+	border-color: rgb(92, 173, 211);
+	padding-top: 30px;
+ 	
+}
+nav li
+{
+
+	margin-right: 25px;
+	list-style-type: none;
+	justify-content: center;
+	font-family: 'robotoregular';
+	color: #777b80;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/*Page principale présentation de l'entreprise*/
+#accueil
+{
+	display: flex;
+	height: auto;
+}
+#accueil h1
+{
+	display: inline-block;
+	width: 600px;
+	margin-top: 190px;
+	margin-left: 180px;
+	margin-bottom: 2px;
+	font-family: 'robotobold';
+}
+#accueil p
+{
+	display: inline-block;
+	width: 430px;
+	margin-left: 180px;
+	margin-right: 180px;
+	font-family: 'robotobold';
+	font-size: 13px;
+}
+
+#image_fond1
+{
+	background-image: url("webagency_images/images/slider/bg1.jpg");
+	width: 100%;
+	height: 600px;
+	background-repeat: no-repeat;	
+}
+#accueil input
+{
+	margin-top: 20px;
+	height: 40px;
+	width: 100px;
+	background-color: rgb(92, 173, 211);
+	color: white;
+	font-family: 'robotobold';
+	font-size: 16px;
+	border-radius: 4px;
+	border-color: rgb(92, 173, 211);
+	box-shadow: 3px;
+}
+#accueil strong
+{
+	color: rgb(92, 173, 211);
+}
+#accueil
+{
+	color: white;
+}
+/*partie 2, les services*/
+
+.firstpage {
+	display: flex;
+}
+
+.alpha {
+	display: flex;
+	margin-top: 30px;
+	font-family: 'robotoblack' 400;
+	font-size: 16px;
+	color: #777b80;
+}
+
+#article1
+{
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+}
+
+#nosservices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 275px;
+    }
+/* LOGO*/
+.barre1
+{
+
+	height: 2px;
+	width: 60px;
+	background-color: rgb(243, 243, 243);
+
+
+}
+.barre2
+{
+
+	height: 2px;
+	width: 60px;
+	background-color: rgb(243, 243, 243);
+
+}
+.logorond
+{
+	display: flex;
+	height: 25px;
+	width: 150px;	
+	justify-content: center;
+	align-items: center;
+	margin-top: -10px;
+
+
+}
+.petitrond
+{
+
+	display: inline-block;
+	height: 14px;
+	width: 14px;
+	border-radius: 50%;
+	background-color: rgb(92, 173, 211);
+
+}
+/*LOGO FIN*/
+#icones
+{
+	display: flex;
+	display: inline-block;
+	margin-top: 340px;
+	margin-left: 30px;
+	margin-right: -10px;
+	
+
+}
+.petitrond1
+{
+	
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: rgb(92, 173, 211);
+	top: 28px;
+	right: 10px;
+}
+
+.charlie
+{
+	font-size: 25px;
+	color: rgb(92, 173, 211);
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	border: 2px solid rgb(243, 243, 243);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 15px;
+	
+}
+
+.beta {
+	position: relative;
+}
+
+#imagemac img
+{
+
+	width: 490px;
+	height: 300px;
+	margin-top: -30px;
+	margin-right: 60px;
+
+}
+
+#article1 h2
+{
+	margin-bottom: 0px;
+	font-family: 'robotoblack';
+	font-size: 40px;
+
+}
+#article1 p
+{
+	width: 400px;
+	font-family: 'robotoblack 400';
+	font-size: 16px;
+	color: #777b80;
+	
+	
+}
+
+#article1 strong
+{
+	font-size: 18px;
+	color: black;
+}
+/*Partie 3 NOS PROJETS*/
+#onglets{
+	display: flex;
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+}
+#entête {
+	display: flex;
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+}
+
+#barre3
+{
+	height: 2px;
+	width: 60px;
+	background-color: rgb(220, 220, 220);
+
+}
+#barre4
+{
+	height: 2px;
+	width: 60px;
+	background-color: rgb(220, 220, 220);
+}
+#logorond2
+{
+	display: flex;
+	height: 25px;
+	width: 150px;	
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+
+
+}
+#petitrond2
+{
+
+	display: inline-block;
+	height: 14px;
+	width: 14px;
+	border-radius: 50%;
+	background-color: rgb(92, 173, 211);
+	border: 3px solid white;
+	
+}
+
+#projets
+{
+	width: auto;
+	height: auto;
+	height: auto;
+	background-color: rgb(245, 245, 245);
+}
+
+#projets h2
+{
+	margin-bottom: 0px;
+	font-family: 'robotoblack';
+	font-size: 40px;
+	
+}
+
+#projets p
+{
+	width: 400px;
+	font-family: 'robotoblack' 400;
+	font-size: 16px;
+	color: #777b80;
+	align-items: center;
+	justify-content: center;
+	
+
+
+}
+
+#projets ul
+{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 35px;
+
+}
+.bordgauche
+{
+	border-radius: 5px;
+}
+.borddroit
+{
+	border-radius: 5px;
+}
+
+#projets li
+{
+	
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 20px;
+	list-style-type: none;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(232, 232, 234);
+	font-family: 'robotoblack' 400;
+	font-size: 16px;
+	color: #777b80;
+}
+#projets li:focus
+{
+	background-color: rgb(92, 173, 211);
+}
+
+#groupeimage
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8
+{
+	width: 280px;
+	height: 180px;
+
+}
+
+
+
+#portimage{
+	display: flex;
+}
+figure
+{
+	display: flex;
+	flex-direction: column;
+	margin-right: -15px;
+
+}
+figcaption
+{
+	width: 90%;
+    position: relative;
+    bottom: 63px;
+    height: auto;
+    left: 30px;
+
+}
+.liseret
+{
+	
+	display: flex;
+    align-items: center;
+    background-color: rgba(112, 88, 42, 0.8);
+    opacity: 0;
+    width: 280px;
+    margin-left: -30px;
+	
+}
+.liseret:hover
+{
+	opacity: 0.8;
+}
+
+.liseret h3
+{
+	margin-left: 15px;
+	margin-top: 4px;
+	font-family: 'robotoregular';
+	font-size: 16px;
+	color: white;
+}
+.eye
+{
+	display: flex;
+	border: 2px solid white;
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+	font-size: 12px;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(70, 146, 177);
+	color: white;
+	position: absolute;
+	bottom: 45px;
+	right: 20px;
+	
+}
+
+/*contact et map*/
+#contact
+{
+	
+	width: 100%;
+	height: auto;	
+	
+}
+#contact h3
+{
+	font-family: 'robotoblack';
+	font-size: 24px;
+	margin-bottom: 0px;
+}
+#contact p
+{
+	font-family: 'robotoblack' 400;
+	font-size: 16px;
+	color: #777b80;
+}
+#contact p strong
+{
+	font-size: 15px;
+	color: black;
+}
+#map
+{
+	
+	width: 100%;
+	background color: rgba(196,237,182,0.9);
+}
+#formulaire2
+{
+	
+	width: 345px;
+	height: 480px;
+	background-color: rgba(232,242,252,0.8);
+	
+}
+#formulaire2
+{
+	position: relative;
+	left: 850px;
+	bottom: 550px;
+}
+#formulaire2 h3, h4, p
+{
+	margin-left: 19px;
+}
+#Name, #Email, #Subject
+{
+	width: 92%;
+	height: 28px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+}
+#Message
+{
+	width: 92%;
+	height: 150px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+}
+#send
+{
+	height: 40px;
+	width: 120px;
+	background-color: rgb(92, 173, 211);
+	color: white;
+	font-family: 'robotobold';
+	font-size: 14px;
+	border-radius: 4px;
+	border-color: rgb(92, 173, 211);
+	box-shadow: 3px;
+}
+
+/* MEDIA QUERIES (petite definition)*/
+
+@media screen and (max-width: 980px)
+{
+	/*en tête*/
+			nav ul
+	{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+		left: 0px;
+		bottom: 0px;
+	}
+	nav li
+	{
+		margin-right: 20px;
+		margin-left: -10px;
+	}
+header
+{
+
+	border: 3px solid black;
+	background-color: white;
+	position: fixed;
+	width: 280px;
+	height: 165px;
+	opacity: 0.5;
+	right: 0px;
+	top: 180px;
+}
+
+	#image_fond1
+	{
+		background-image: url("webagency_images/images/slider/bg1.jpg");
+		width: 100%;
+		height: 500px;
+		background-repeat: no-repeat;
+	}
+
+	#accueil h1
+	{
+		font-size: 40px;
+		width: auto;
+		margin-left: 50px;
+		margin-top: 40px;
+		
+	}
+	#accueil p
+	{
+		font-size: 30px;
+		width: auto;
+		margin-left: 50px;
+	}
+	#accueil input
+	{
+		font-size: 20px;
+		width: auto;
+
+	}
+
+
+	/*fin en tête*/
+
+				/*NOS SERVICES*/
+	.firstpage{
+		display: flex;
+		flex-direction: column;
+	}
+	#imagemac{
+		margin-left: 20%;
+		opacity: 0.2;
+		margin-bottom: -70px;
+		margin-top: -50px;
+	}
+		#article1 h2
+	{
+		width: auto;
+		font-size: 50px;
+	}
+	#article1 p
+	{
+		font-size: 35px;
+	}
+
+	.alpha
+	{
+		font-size: 35px;
+		align-items:center;
+		width: 100%;
+		font-size: 25px;
+	}
+	/*FIN SERVICES*/
+
+	/*PROJETS*/
+
+	#projets
+	{
+		height: auto;
+	}
+
+	figure{
+		margin-bottom: -50px;
+	}
+	#projets h2
+	{
+		font-size: 50px;
+		margin-bottom: auto;
+	}
+	#projets p
+	{
+		font-size: 35px;
+		margin-top: 150px;
+		margin-bottom: 0px;
+		width: 70%;
+	}
+	#projets li
+	{
+		font-size: 18px;
+	}
+	#groupeimage
+	{
+		margin-top: 70px;
+	}
+	.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8
+	{
+		width: 460px;
+		height: 360px;
+
+	}
+	.liseret{
+		width: 460px;
+		height: 100px;
+		position: relative;
+		bottom: 37px;
+	}
+	.eye{
+		position: absolute;
+		bottom: 80px;
+		right: 20px;
+	}
+	/*FIN PROJETS*/
+
+					/*Contact et Map*/
+	#formulaire2
+	{
+		width: 40%;
+		height: auto;
+		left: 250px;
+	}
+	#formulaire2 p
+	{
+		font-size: 20px;
+	}
+
+
+
+}
+					/*Fin contact et Map*/
+
+
+/* MEDIA QUERIES (moyenne definition)*/
+
+@media screen and (min-width: 980px) and (max-width: 1280px)
+{
+
+	#projets
+	{
+		height: auto;
+	}
+}
