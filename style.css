@@ -813,7 +813,8 @@ header
 	.triangle
 	{
 		height: 100px;
-		margin-left: -5px;
+		width:350px;
+		margin-left: 0px;
 		font-size: 30px;
 		font-family:'robotoblack';
 
