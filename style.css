@@ -810,6 +810,7 @@ header
 		width: 80%;
 		padding-bottom:90px;
 		border-radius: 10px;
+		margin-bottom: 100px;
 	}
 	.triangle
 	{
@@ -836,7 +837,7 @@ header
 	}
 	#groupeimage
 	{
-		margin-top: 180px;
+		margin-top: 190px;
 	}
 	.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8
 	{
