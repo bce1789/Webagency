@@ -807,6 +807,7 @@ header
 	}
 	.selection
 	{
+		width: 80%;
 		padding-bottom:90px;
 		border-radius: 10px;
 	}
