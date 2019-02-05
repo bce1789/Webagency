@@ -748,13 +748,13 @@ figcaption
 	}
 	#accueil p
 	{
-		font-size: 30px;
+		font-size: 35px;
 		width: auto;
 		margin-left: 50px;
 	}
 	#accueil input
 	{
-		font-size: 20px;
+		font-size: 25px;
 		width: auto;
 
 	}
@@ -779,13 +779,13 @@ figcaption
 	}
 	#article1 p
 	{
-		font-size: 35px;
+		font-size: 40px;
 		width: 100%;
 	}
 
 	.alpha
 	{
-		font-size: 35px;
+		font-size: 40px;
 		align-items:center;
 		width: 100%;
 		font-size: 25px;
@@ -809,10 +809,10 @@ figcaption
 	}
 	#projets p
 	{
-		font-size: 35px;
+		font-size: 40px;
 		margin-top: 150px;
 		margin-bottom: 0px;
-		width: 70%;
+		width: 80%;
 	}
 	.selection
 	{
@@ -824,7 +824,7 @@ figcaption
 	.triangle
 	{
 		height: 100px;
-		width:350px;
+		width: 350px;
 		margin-left: 0px;
 		font-size: 30px;
 		font-family:'robotoblack';
