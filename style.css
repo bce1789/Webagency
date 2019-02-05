@@ -734,8 +734,9 @@ figcaption
 	{
 		background-image: url("webagency_images/images/slider/bg1.jpg");
 		width: 100%;
-		height: 500px;
+		height: 400px;
 		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 	#accueil h1
