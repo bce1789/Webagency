@@ -899,7 +899,7 @@ figcaption
 	{
 		position: static;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		width: auto;
 		height: auto;
 		background-color:white;
@@ -907,20 +907,19 @@ figcaption
 	}
 	#formulaire2 p
 	{
-		display: flex;
-		flex-direction: column;
+		
 		font-size: 30px;
 	}
 	#formulaire2 h3, h4, p
 	{
-		
-		width: 40%;
+		margin-left: 20%;
+		width: 80%;
 		align-items:center;
 		justify-content: center;	
 	}
 	#contact h3
 	{
-		margin-bottom: 260px;
+		
 		font-size: 50px;
 	}
 	#contact p strong
@@ -930,9 +929,10 @@ figcaption
 	#cadre
 	{
 		width: 100%;
-		margin-top: 50px;
-
-	
+	}
+	#Name, #Email, #Subject
+	{
+		height: 40px;
 	}
 
 
