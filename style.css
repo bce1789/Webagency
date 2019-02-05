@@ -189,7 +189,7 @@ nav li
 	margin-left: 180px;
 	margin-right: 180px;
 	font-family: 'robotobold';
-	font-size: 13px;
+	font-size: 16px;
 }
 
 #image_fond1
@@ -208,9 +208,9 @@ nav li
 	color: white;
 	font-family: 'robotobold';
 	font-size: 16px;
-	border-radius: 4px;
+	border-radius: 5px;
 	border-color: rgb(92, 173, 211);
-	box-shadow: 3px;
+	box-shadow: 5px;
 }
 #accueil strong
 {
@@ -229,7 +229,7 @@ nav li
 .alpha {
 	display: flex;
 	margin-top: 30px;
-	font-family: 'robotoblack' 400;
+	font-family: 'robotoregular';
 	font-size: 16px;
 	color: #777b80;
 }
@@ -348,7 +348,7 @@ nav li
 #article1 p
 {
 	width: 400px;
-	font-family: 'robotoblack 400';
+	font-family: 'robotoregular';
 	font-size: 16px;
 	color: #777b80;
 	
@@ -435,7 +435,7 @@ nav li
 #projets p
 {
 	width: 400px;
-	font-family: 'robotoblack' 400;
+	font-family: 'robotoregular';
 	font-size: 16px;
 	color: #777b80;
 	align-items: center;
@@ -636,7 +636,7 @@ figcaption
 }
 #contact p
 {
-	font-family: 'robotoblack' 400;
+	font-family: 'robotoblack';
 	font-size: 16px;
 	color: #777b80;
 }
