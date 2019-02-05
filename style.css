@@ -952,6 +952,13 @@ figcaption
 	{
 		margin-left: 30px;
 	}
+	#send
+	{
+		font-size: 30px;
+		width: auto;
+		border-radius: 5px;
+		
+	}
 
 
 
