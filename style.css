@@ -897,13 +897,29 @@ figcaption
 					/*Contact et Map*/
 	#formulaire2
 	{
-		width: 40%;
+		position: static;
+		width: auto;
 		height: auto;
-		left: 250px;
+		
+		background-color:white;
 	}
 	#formulaire2 p
 	{
-		font-size: 20px;
+		font-size: 30px;
+	}
+	#formulaire2 h3, h4, p
+	{
+		width: auto;
+		align-items:center;
+		justify-content: center;	
+	}
+	#contact h3
+	{
+		font-size: 50px;
+	}
+	#contact p strong
+	{
+		font-size: 35px;
 	}
 
 
