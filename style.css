@@ -769,9 +769,8 @@ figcaption
 	}
 	#imagemac{
 		margin-left: 20%;
-		opacity: 0.2;
 		margin-bottom: -70px;
-		margin-top: -50px;
+		margin-top: 50px;
 	}
 		#article1 h2
 	{
@@ -781,6 +780,7 @@ figcaption
 	#article1 p
 	{
 		font-size: 35px;
+		width: 100%;
 	}
 
 	.alpha
