@@ -713,6 +713,7 @@ figcaption
 	{
 		margin-right: 20px;
 		margin-left: -10px;
+		font-size: 25px;
 	}
 	header
 	{
@@ -724,9 +725,9 @@ figcaption
 		border: 3px solid black;
 		background-color: white;
 		position: fixed;
-		width: 280px;
+		width: auto;
 		height: 115px;
-		right: 35%;
+		right: 25%;
 		top: 0px;
 	}
 
@@ -789,7 +790,7 @@ figcaption
 		font-size: 40px;
 		align-items:center;
 		width: 100%;
-		font-size: 25px;
+		font-size: 30px;
 	}
 	.charlie
 	{
