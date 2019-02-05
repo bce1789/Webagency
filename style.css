@@ -114,12 +114,17 @@
 						/* EN tête */
 header
 {
+	height: 60px;
+}						
+#bande
+{
 
 	
 	background-color: white;
 	position: fixed;
 	width: 100%;
 	height: 55px;
+	margin-bottom: 50px;
 	
 }
 
