@@ -177,8 +177,8 @@ nav li
 {
 	display: inline-block;
 	width: 600px;
-	margin-top: 190px;
-	margin-left: 180px;
+	margin-top: 90px;
+	margin-left: 123px;
 	margin-bottom: 2px;
 	font-family: 'robotobold';
 }
@@ -196,8 +196,45 @@ nav li
 {
 	background-image: url("webagency_images/images/slider/bg1.jpg");
 	width: 100%;
-	height: 600px;
-	background-repeat: no-repeat;	
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: center; 	
+	background-size: cover;
+	
+}
+#arrowright
+{
+	 display: inline-flex;
+	 position: relative;
+	 left: 98%;
+	 top: 54px;
+	 font-size: 20px; 
+	 height: 50px;
+	 width: 25px;
+	 border-bottom-left-radius: 50px;
+	 border-top-left-radius: 50px;
+	 border-right-widht: 15px;
+	 justify-content: center;
+	 align-items: center;
+	 background-color: black;
+	 opacity: 0.4;
+}
+#arrowleft
+{
+	display: inline-flex;
+	 position: relative;
+	 right: 2%;
+	 top: 53px;
+	 font-size: 20px; 
+	 height: 50px;
+	 width: 25px;
+	 border-bottom-right-radius: 50px;
+	 border-top-right-radius: 50px;
+	 border-right-widht: 15px;
+	 justify-content: center;
+	 align-items: center;
+	 background-color: black;
+	 opacity: 0.4;
 }
 #accueil input
 {
@@ -739,12 +776,19 @@ figcaption
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-
+	#arrowleft
+	{
+		right: 25px;
+	}
+	#arrowright
+	{
+		left: 97%;
+	}
 	#accueil h1
 	{
 		font-size: 40px;
 		width: auto;
-		margin-left: 50px;
+		margin-left: 0px;
 		margin-top: 40px;
 		
 	}
@@ -752,7 +796,7 @@ figcaption
 	{
 		font-size: 35px;
 		width: auto;
-		margin-left: 50px;
+		margin-left: 58px;
 	}
 	#accueil input
 	{
