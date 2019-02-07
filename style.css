@@ -153,7 +153,10 @@ a:hover
 	border-top: 3px solid black;
 	border-color: rgb(92, 173, 211);
 	padding-top: 10px;
- 	
+}
+a:visited
+{
+	color: rgb(21, 132, 185) ;
 }
 nav li
 {
@@ -178,7 +181,7 @@ nav li
 	display: inline-block;
 	width: 600px;
 	margin-top: 90px;
-	margin-left: 123px;
+	margin-left: 80px;
 	margin-bottom: 2px;
 	font-family: 'robotobold';
 }
@@ -186,7 +189,7 @@ nav li
 {
 	display: inline-block;
 	width: 430px;
-	margin-left: 180px;
+	margin-left: 80px;
 	margin-right: 180px;
 	font-family: 'robotobold';
 	font-size: 16px;
@@ -205,9 +208,9 @@ nav li
 #arrowright
 {
 	 display: inline-flex;
-	 position: relative;
-	 left: 98%;
-	 top: 54px;
+	 position:absolute;
+	 top: 250px;
+	 right: 0.6%;
 	 font-size: 20px; 
 	 height: 50px;
 	 width: 25px;
@@ -222,9 +225,8 @@ nav li
 #arrowleft
 {
 	display: inline-flex;
-	 position: relative;
-	 right: 2%;
-	 top: 53px;
+	 position:absolute;
+	 top: 250px;
 	 font-size: 20px; 
 	 height: 50px;
 	 width: 25px;
@@ -238,7 +240,9 @@ nav li
 }
 #accueil input
 {
-	margin-top: 20px;
+	display: flex;
+	margin-left: 0px;
+	margin-top: 15px;
 	height: 40px;
 	width: 100px;
 	background-color: rgb(92, 173, 211);
@@ -788,17 +792,19 @@ iframe
 	}
 	#arrowleft
 	{
-		right: 25px;
+		left:1%;
+		top: 280px;
 	}
 	#arrowright
 	{
-		left: 97%;
+		right:1%;
+		top: 280px;
 	}
 	#accueil h1
 	{
 		font-size: 40px;
 		width: auto;
-		margin-left: 0px;
+		margin-left: 50px;
 		margin-top: 40px;
 		
 	}
@@ -806,7 +812,7 @@ iframe
 	{
 		font-size: 35px;
 		width: auto;
-		margin-left: 58px;
+		margin-left: 50px;
 	}
 	#accueil input
 	{
@@ -822,6 +828,10 @@ iframe
 	.firstpage{
 		display: flex;
 		flex-direction: column;
+	}
+	.logorond
+	{
+		margin-top: 5px;
 	}
 	#imagemac{
 		margin-left: 20%;
@@ -846,24 +856,25 @@ iframe
 	.alpha
 	{
 		font-size: 40px;
-		width: 90%;
+		width: 100%;
+		height: 100%;
 		align-items: start;
 	}
 	.charlie
 	{
-		font-size: 45px;
-		margin-right: 115px;
-		margin-left: 0px;
-		height: auto;
-		width: auto;
+		font-size: 50px;
+		margin-right: 30px;
+		margin-left: 30px;
+		height: 70px;
+		width: 70px;
 	}
 	.petitrond1
 	{
-		right: 40px;
-		top: 35px;
+		right: 20px;
+		top: 30px;
 		height: 13px;
 		width: 13px;
-
+		
 	}
 	/*FIN SERVICES*/
 
