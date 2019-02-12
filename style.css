@@ -830,7 +830,8 @@ input
 		font-size: 40px;
 		justify-content: center;
 		width: 90%;
-		margin-right: 80px;
+		margin-right: auto;
+    	margin-left: auto;
 	}
 	#article1 strong
 	{
