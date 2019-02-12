@@ -131,17 +131,17 @@ header
 	background-color: white;
 	position: fixed;
 	width: 100%;
-	height: 55px;
+	height: 75px;
 	margin-bottom: 50px;
+	z-index: 1;
 	
 }
 
 #logo
 {
 	
-	left: 70px;
-	top: 30px;
-	width: 100%;
+	padding-top: 10px;
+	padding-left: 85px;
 	
 }
 
@@ -151,20 +151,27 @@ nav ul
 
 	display: flex;
 	position: relative;
-	left: 70%;
+	left: 65%;
 	bottom: 55px;
 	
 	
 }
 a:hover
 {
-	border-top: 3px solid black;
+	border-top: 4px solid black;
 	border-color: rgb(92, 173, 211);
-	padding-top: 10px;
+	padding-top: 29px;
+	padding-left: 5px;
+	padding-right: 5px;
+
 }
 a:visited
 {
-	color: rgb(21, 132, 185) ;
+	color: rgb(134, 134, 134) ;
+}
+a
+{
+	text-decoration: none;
 }
 nav li
 {
@@ -174,8 +181,9 @@ nav li
 	justify-content: center;
 	font-family: 'robotoregular';
 	color: #777b80;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: bold;
+	text-decoration: none;
 }
 
 /*Page principale présentation de l'entreprise*/
@@ -257,9 +265,9 @@ nav li
 	color: white;
 	font-family: 'robotobold';
 	font-size: 16px;
-	border-radius: 5px;
+	border-radius: 3px;
 	border-color: rgb(92, 173, 211);
-	box-shadow: 5px;
+	border-right: none;
 }
 #accueil strong
 {
@@ -278,7 +286,7 @@ nav li
 .alpha {
 	display: flex;
 	margin-top: 30px;
-	font-family: 'robotoregular';
+	font-family: 'robotomedium';
 	font-size: 16px;
 	color: #777b80;
 }
@@ -397,9 +405,10 @@ nav li
 #article1 p
 {
 	width: 400px;
-	font-family: 'robotoregular';
+	font-family: 'robotomedium';
 	font-size: 16px;
 	color: #777b80;
+	text-align: center;
 	
 	
 }
@@ -484,8 +493,8 @@ nav li
 #projets p
 {
 	width: 400px;
-	font-family: 'robotoregular';
-	font-size: 16px;
+	font-family: 'robotomedium';
+	font-size: 15px;
 	color: #777b80;
 	align-items: center;
 	justify-content: center;
@@ -494,14 +503,6 @@ nav li
 
 }
 
-/*#projets ul
-{
-	display: flex;
-	flex-direction: row;
-	margin-bottom: 35px;
-
-}
-*/
 .selection{
 	display: flex;
 	height: 70px;
@@ -520,11 +521,26 @@ nav li
 	border-radius: 5px;
 	justify-content: center;
 	align-items: center;
+	background-color: rgb(230, 230, 230);
+	font-family: robotomedium;
+	color: #777b80;
+	font-size: 15px;
+
 }
 .triangle:hover
 {
 	background-color: rgb(92, 173, 211);
+	color: white;
 }
+.triangle:hover > #iconetriangle1,
+.triangle:hover > #iconetriangle2,
+.triangle:hover > #iconetriangle3,
+.triangle:hover > #iconetriangle4
+{
+	color: rgb(92, 173, 211);
+	opacity:1;
+}
+
 
 #iconetriangle1, #iconetriangle2, #iconetriangle3, #iconetriangle4
 {
@@ -538,59 +554,10 @@ nav li
 	opacity: 0;
 }
 
-#iconetriangle1:hover, #iconetriangle2:hover, #iconetriangle3:hover, #iconetriangle4:hover
-{
-color: rgb(92, 173, 211);
-opacity:1;
-
-}
 
 
 
-/*.triangle-code
-{
- display : inline-block;
- height : 0;
- width : 0;
- border-top : 15px solid red;
- border-right : 9px solid transparent;
- border-left : 9px solid transparent;
- position: relative;
- top: 30px;
- right: 30px;
- 
-}
 
-.bordgauche
-{
-	border-radius: 5px;
-}
-.borddroit
-{
-	border-radius: 5px;
-}
-
-#projets li
-{
-	
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	height: 20px;
-	list-style-type: none;
-	justify-content: center;
-	align-items: center;
-	background-color: rgb(232, 232, 234);
-	font-family: 'robotoblack' 400;
-	font-size: 16px;
-	color: #777b80;
-}
-#projets li:hover
-{
-	background-color: rgb(92, 173, 211);
-}
-*/
 #groupeimage
 {
 	display: flex;
@@ -674,7 +641,7 @@ figcaption
 {
 	
 	width: 100%;
-	height: auto;	
+	height: 500px;	
 	
 }
 #contact h3
@@ -699,7 +666,6 @@ figcaption
 	
 	width: 100%;
 	background-color: rgb(0, 101, 149);
-
 	height: 600px;
 }
 iframe 
@@ -711,8 +677,9 @@ iframe
 {
 	
 	width: 345px;
-	height: 480px;
-	background-color: rgba(232,242,252,0.8);
+	height: 500px;
+	background-color: white;
+	opacity: 0.8;
 	
 }
 #formulaire2
@@ -727,19 +694,28 @@ iframe
 }
 #Name, #Email, #Subject
 {
-	width: 92%;
-	height: 28px;
-	margin-bottom: 12px;
-	border-radius: 5px;
-	margin-left: 15px;
+	width: 89%;
+    height: 26px;
+    margin-bottom: 18px;
+    margin-left: 17px;
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+   
 }
 #Message
 {
-	width: 92%;
+	width: 89%;
 	height: 150px;
 	margin-bottom: 12px;
-	border-radius: 5px;
-	margin-left: 15px;
+	margin-left: 17px;
+	border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+input
+{
+	background-color: white;
+	opacity: 1;
 }
 #send
 {
@@ -753,6 +729,7 @@ iframe
 	border-color: rgb(92, 173, 211);
 	box-shadow: 3px;
 	margin-left: 15px;
+	border-right: none;
 }
 
 /* MEDIA QUERIES (petite definition)*/
