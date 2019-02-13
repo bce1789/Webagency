@@ -747,11 +747,11 @@ input
 	{
 		margin-right: 20px;
 		margin-left: -10px;
-		font-size: 25px;
+		font-size: 35px;
 	}
 	header
 	{
-		height: 130px;
+		height: 155px;
 	}
 	#bande
 	{
@@ -759,12 +759,16 @@ input
 		border: 3px solid black;
 		background-color: white;
 		position: fixed;
-		width: auto;
-		height: 120px;
-		right: 25%;
+		width: 575px;
+		height: 150px;
+		right: 20%;
 		top: 0px;
+		padding-right: 10px;
 	}
-
+	#logo
+	{
+		margin-left: 60px;
+	}
 	#image_fond1
 	{
 		background-image: url("webagency_images/images/slider/bg1.jpg");
@@ -956,9 +960,10 @@ input
 		display: flex;
 		flex-direction: column;
 		width: auto;
-		height: 990px;
+		height: 1000px;
 		background-color:white;
 		border: 1px solid black;
+		background-color: rgb(245, 245, 245);
 	}
 	#formulaire2 p
 	{
