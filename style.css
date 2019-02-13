@@ -746,7 +746,7 @@ input
 	nav li
 	{
 		margin-right: 20px;
-		margin-left: 0px;
+		margin-left: 15px;
 		font-size: 35px;
 	}
 	header
@@ -759,15 +759,15 @@ input
 		border: 1px solid black;
 		background-color: white;
 		position: fixed;
-		width: 65%;
+		width: 75%;
 		height: 150px;
-		right: 16%;
+		right: 12%;
 		top: 0px;
 
 	}
 	#logo
 	{
-		margin-left: 60px;
+		margin-left: 150px;
 	}
 	#image_fond1
 	{
