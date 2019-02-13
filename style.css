@@ -751,7 +751,7 @@ input
 	}
 	header
 	{
-		height: 115px;
+		height: 130px;
 	}
 	#bande
 	{
@@ -760,7 +760,7 @@ input
 		background-color: white;
 		position: fixed;
 		width: auto;
-		height: 115px;
+		height: 120px;
 		right: 25%;
 		top: 0px;
 	}
@@ -818,7 +818,7 @@ input
 	}
 	#imagemac{
 		margin-left: 20%;
-		margin-top: 125px;
+		margin-top: 150px;
 	}
 		#article1 h2
 	{
@@ -832,6 +832,7 @@ input
 		width: 90%;
 		margin-right: auto;
     	margin-left: auto;
+    	margin-bottom: 30px;
 	}
 	#article1 strong
 	{
@@ -881,7 +882,7 @@ input
 	{
 		font-size: 40px;
 		margin-top: 150px;
-		margin-bottom: 0px;
+		margin-bottom: 15px;
 		width: 80%;
 		margin-left: 0px;
 	}
