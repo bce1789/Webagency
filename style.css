@@ -956,9 +956,9 @@ input
 		display: flex;
 		flex-direction: column;
 		width: auto;
-		height: auto;
+		height: 990px;
 		background-color:white;
-		border: 3px solid black;
+		border: 1px solid black;
 	}
 	#formulaire2 p
 	{
@@ -996,7 +996,7 @@ input
 	}
 	#Name, #Email, #Subject
 	{
-		height: 40px;
+		height: 70px;
 		margin-left: 30px;
 	}
 	#Message, #send
@@ -1005,8 +1005,9 @@ input
 	}
 	#send
 	{
-		font-size: 30px;
-		width: auto;
+		font-size: 40px;
+		width: 360px;
+		height: 80px;
 		border-radius: 5px;
 		
 	}
