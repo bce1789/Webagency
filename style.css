@@ -472,8 +472,9 @@ element*/
 {
 	width: auto;
 	height: auto;
-	height: 750px;
+	
 	background-color: rgb(245, 245, 245);
+	
 	/*Propriétés de la page en taille et couleur de fond*/
 }
 
@@ -496,7 +497,7 @@ element*/
 
 .selection{
 	display: flex;
-	height: 70px;
+	height: 71px;
 	width: 550px;
 	margin-bottom: -25px;
 	margin-top: 20px;
@@ -552,18 +553,16 @@ element*/
 #groupeimage
 {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
 	/*Porpriétés du groupe d'images*/
 }
 
 .image
 {
 	width: 280px;
-	height: 180px;
-	margin-bottom: -80px;
-
+    height: 180px;
 }
 
 figure
@@ -587,12 +586,14 @@ figcaption
 .liseret
 {
 	
-	display: flex;
-    align-items: center;
+	align-items: center;
+    position: absolute;
+    bottom: -63px;
     background-color: rgba(112, 88, 42, 0.8);
     opacity: 0;
     width: 280px;
     margin-left: -30px;
+    
 	
 }
 .liseret:hover
