@@ -124,7 +124,7 @@ header
 {
 	height: 60px;
 }						
-#bande
+#bande /*LOGO PLUS MENU DEROULANT*/
 {
 
 	
@@ -137,7 +137,7 @@ header
 	
 }
 
-#logo
+#logo /*LOGO WEBAGENCY*/
 {
 	
 	padding-top: 10px;
@@ -148,14 +148,12 @@ header
 /*Menu déroulant fixe */
 nav ul
 {
-
 	display: flex;
 	position: relative;
 	left: 65%;
-	bottom: 55px;
-	
-	
+	bottom: 55px;	
 }
+				/*COMPORTEMENT ET COULEUR DES LIENS DE NAVIGATION*/
 a:hover
 {
 	border-top: 4px solid black;
@@ -167,11 +165,12 @@ a:hover
 }
 a:visited
 {
-	color: rgb(134, 134, 134) ;
+	color: rgb(134, 134, 134);
 }
 a
 {
 	text-decoration: none;
+	color: rgb(134, 134, 134);
 }
 nav li
 {
@@ -211,7 +210,7 @@ nav li
 	font-size: 16px;
 }
 
-#image_fond1
+#image_fond1  
 {
 	background-image: url("webagency_images/images/slider/bg1.jpg");
 	width: 100%;
@@ -219,7 +218,8 @@ nav li
 	background-repeat: no-repeat;
 	background-position: center; 	
 	background-size: cover;
-	
+/*Image avec la petite fille qui recouvre la page entière sans perdre un 
+element*/
 }
 #arrowright
 {
@@ -232,7 +232,6 @@ nav li
 	 width: 25px;
 	 border-bottom-left-radius: 50px;
 	 border-top-left-radius: 50px;
-	 border-right-widht: 15px;
 	 justify-content: center;
 	 align-items: center;
 	 background-color: black;
@@ -248,7 +247,6 @@ nav li
 	 width: 25px;
 	 border-bottom-right-radius: 50px;
 	 border-top-right-radius: 50px;
-	 border-right-widht: 15px;
 	 justify-content: center;
 	 align-items: center;
 	 background-color: black;
@@ -268,6 +266,7 @@ nav li
 	border-radius: 3px;
 	border-color: rgb(92, 173, 211);
 	border-right: none;
+	/*Propriétés du bouton "plus d'info"*/
 }
 #accueil strong
 {
@@ -277,34 +276,69 @@ nav li
 {
 	color: white;
 }
-/*partie 2, les services*/
+									/*partie 2, les services*/
 
 .firstpage {
 	display: flex;
+	height: auto;
+	margin-bottom: 50px;
+	/*Div qui contient l'ensemble de la page service hors introduction*/
 }
-
+#nosservices 
+	{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 275px;
+    /*Div regroupant la partie introduction de la page*/
+    }
 .alpha {
 	display: flex;
 	margin-top: 30px;
 	font-family: 'robotomedium';
 	font-size: 16px;
 	color: #777b80;
+	/*Div regroupant les div "beta", "charlie" et "petitrond1"
+	pour la création des logos devant chaque spécialité */
 }
 
+.beta 
+{
+	position: relative;
+}
+.charlie
+{
+	font-size: 25px;
+	color: rgb(92, 173, 211);
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	border: 2px solid rgb(243, 243, 243);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 15px;
+	
+}
+.petitrond1
+{
+	
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	position: absolute;
+	background-color: rgb(92, 173, 211);
+	top: 28px;
+	right: 10px;
+}
 #article1
 {
 	margin: 0 auto;
 	width: 80%;
 	height: auto;
 }
-
-#nosservices {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 275px;
-    }
-/* LOGO*/
+						/* LOGO*/
+						/*Création du logo qui prend place sous le titre de la page*/
 .barre1
 {
 
@@ -343,47 +377,7 @@ nav li
 	background-color: rgb(92, 173, 211);
 
 }
-/*LOGO FIN*/
-#icones
-{
-	display: flex;
-	display: inline-block;
-	margin-top: 340px;
-	margin-left: 30px;
-	margin-right: -10px;
-	
-
-}
-.petitrond1
-{
-	
-	height: 10px;
-	width: 10px;
-	border-radius: 50%;
-	position: absolute;
-	background-color: rgb(92, 173, 211);
-	top: 28px;
-	right: 10px;
-}
-
-.charlie
-{
-	font-size: 25px;
-	color: rgb(92, 173, 211);
-	height: 60px;
-	width: 60px;
-	border-radius: 50%;
-	border: 2px solid rgb(243, 243, 243);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-right: 15px;
-	
-}
-
-.beta {
-	position: relative;
-}
+						/*LOGO FIN*/
 
 #imagemac img
 {
@@ -418,7 +412,7 @@ nav li
 	font-size: 18px;
 	color: black;
 }
-/*Partie 3 NOS PROJETS*/
+								/*Partie 3 NOS PROJETS*/
 #onglets{
 	display: flex;
 	margin: 0 auto;
@@ -427,6 +421,7 @@ nav li
     flex-direction: column;
     align-items: center;
     height: 250px;
+    /*Div regroupant les differents onglets de présentation des projets*/
 }
 #entête {
 	display: flex;
@@ -436,8 +431,9 @@ nav li
     flex-direction: column;
     align-items: center;
     height: 250px;
+    /*Titre + Logo*/
 }
-
+	/*Logo sous le titre*/
 #barre3
 {
 	height: 2px;
@@ -459,8 +455,6 @@ nav li
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 20px;
-
-
 }
 #petitrond2
 {
@@ -473,13 +467,14 @@ nav li
 	border: 3px solid white;
 	
 }
-
+	/*Fin du logo sous le titre*/
 #projets
 {
 	width: auto;
 	height: auto;
-	height: auto;
+	height: 750px;
 	background-color: rgb(245, 245, 245);
+	/*Propriétés de la page en taille et couleur de fond*/
 }
 
 #projets h2
@@ -487,20 +482,16 @@ nav li
 	margin-bottom: 0px;
 	font-family: 'robotoblack';
 	font-size: 40px;
-	
 }
 
 #projets p
 {
 	width: 400px;
 	font-family: 'robotomedium';
-	font-size: 15px;
+	font-size: 16px;
 	color: #777b80;
 	align-items: center;
 	justify-content: center;
-	
-
-
 }
 
 .selection{
@@ -511,6 +502,7 @@ nav li
 	margin-top: 20px;
    border-radius: 5px;
    background-color: rgb(230, 230, 230);
+   /*Div regroupant "triangle", "iconetriangle" et "fas fa-caret-down" pour la gestion du menu des projets*/
 }
 
 .triangle
@@ -524,25 +516,24 @@ nav li
 	background-color: rgb(230, 230, 230);
 	font-family: robotomedium;
 	color: #777b80;
-	font-size: 15px;
-
+	font-size: 16px;
+	/*Div comprenant le texte et le triangle associés lors du survol de la case*/
 }
+/*Propriétés d'ensemble du comportement du triangle et de la couleur de la case lors du survol*/
 .triangle:hover
 {
 	background-color: rgb(92, 173, 211);
 	color: white;
 }
-.triangle:hover > #iconetriangle1,
-.triangle:hover > #iconetriangle2,
-.triangle:hover > #iconetriangle3,
-.triangle:hover > #iconetriangle4
+
+.triangle:hover > .iconetriangle
 {
 	color: rgb(92, 173, 211);
 	opacity:1;
 }
 
 
-#iconetriangle1, #iconetriangle2, #iconetriangle3, #iconetriangle4
+.iconetriangle
 {
 	display:flex;
 	height: 30px;
@@ -554,7 +545,7 @@ nav li
 	opacity: 0;
 }
 
-
+/* FIN Propriétés d'ensemble du comportement du triangle et de la couleur de la case lors du survol*/
 
 
 
@@ -564,21 +555,19 @@ nav li
 	flex-wrap: wrap;
 	justify-content: center;
 	margin-top: 40px;
+	/*Porpriétés du groupe d'images*/
 }
 
-.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8
+.image
 {
 	width: 280px;
 	height: 180px;
+	margin-bottom: -80px;
 
 }
 
-
-
-#portimage{
-	display: flex;
-}
 figure
+/*Groupement image et liseret*/
 {
 	display: flex;
 	flex-direction: column;
@@ -586,6 +575,7 @@ figure
 
 }
 figcaption
+/*permet d'intégrer un liseret et un texte*/
 {
 	width: 90%;
     position: relative;
@@ -667,8 +657,10 @@ figcaption
 	width: 100%;
 	background-color: rgb(0, 101, 149);
 	height: 600px;
+/*taille de la map avec une couleur bleu*/
 }
 iframe 
+/*iframe contenant le lien de la map ou j'ai ajouté une opacité afin de mettre un filtre bleu*/
 {
     opacity: 0.8;
     height: 600px;
@@ -679,14 +671,12 @@ iframe
 	width: 345px;
 	height: 500px;
 	background-color: rgba(255, 255, 255, 0.7);
-	
-}
-#formulaire2
-{
 	position: relative;
 	left: 850px;
 	bottom: 550px;
+	/*Formulaire de contact*/
 }
+
 #formulaire2 h3, h4, p
 {
 	margin-left: 19px;
@@ -697,7 +687,7 @@ iframe
     height: 26px;
     margin-bottom: 18px;
     margin-left: 17px;
-    border: 1px solid #cccccc;
+    border: 1px solid #cccccc/*bordure grise*/;
     border-radius: 3px;
    
 }
@@ -709,11 +699,6 @@ iframe
 	margin-left: 17px;
 	border: 1px solid #cccccc;
     border-radius: 3px;
-}
-input
-{
-	background-color: white;
-	opacity: 1;
 }
 #send
 {
@@ -812,9 +797,14 @@ input
 	/*fin en tête*/
 
 				/*NOS SERVICES*/
+	#article1
+	{
+		height: auto;
+	}
 	.firstpage{
 		display: flex;
 		flex-direction: column;
+		height: auto;
 	}
 	.logorond
 	{
@@ -906,7 +896,7 @@ input
 		font-family:'robotoblack';
 
 	}
-	#iconetriangle1, #iconetriangle2, #iconetriangle3, #iconetriangle4
+	.iconetriangle
 	{
 		opacity:0;
 		position: relative;
@@ -914,7 +904,7 @@ input
 		right: 95px;
 		top: 5px;
 	}
-	#iconetriangle1:hover, #iconetriangle2:hover, #iconetriangle3:hover, #iconetriangle4:hover
+	.iconetriangle:hover
 	{
 	color: rgb(92, 173, 211);
 	opacity:1;
@@ -924,11 +914,12 @@ input
 	{
 		margin-top: 190px;
 	}
-	.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8
+	.image
 	{
 		width: 700px;
 		height: 460px;
 		padding-right:30px;
+		margin-bottom: 0px;
 	}
 	.liseret{
 		width: 700px;
@@ -1024,6 +1015,7 @@ input
 
 
 /* MEDIA QUERIES (moyenne definition)*/
+
 
 @media screen and (min-width: 980px) and (max-width: 1280px)
 {
