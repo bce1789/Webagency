@@ -741,13 +741,14 @@ iframe
 	#bande
 	{
 
-		border: 1px solid black;
-		background-color: white;
-		position: fixed;
-		width: 75%;
-		height: 150px;
-		right: 12%;
-		top: 0px;
+	border: 1px solid black;
+    background-color: white;
+    position: fixed;
+    width: auto;
+    height: auto;
+    right: 12%;
+    top: 0px;
+    padding-right: 25px;
 
 	}
 	#logo
