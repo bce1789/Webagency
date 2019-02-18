@@ -159,8 +159,7 @@ a:hover
 	border-top: 4px solid black;
 	border-color: rgb(92, 173, 211);
 	padding-top: 29px;
-	padding-left: 5px;
-	padding-right: 5px;
+	border-top-width: 45px;
 
 }
 a:visited
@@ -190,6 +189,8 @@ nav li
 {
 	display: flex;
 	height: auto;
+	
+
 }
 #accueil h1
 {
@@ -202,7 +203,7 @@ nav li
 }
 #accueil p
 {
-	display: inline-block;
+	
 	width: 430px;
 	margin-left: 80px;
 	margin-right: 180px;
@@ -218,8 +219,17 @@ nav li
 	background-repeat: no-repeat;
 	background-position: center; 	
 	background-size: cover;
+	border-bottom: 5px solid rgba(0, 0, 0, 0.1);
 /*Image avec la petite fille qui recouvre la page entière sans perdre un 
 element*/
+}
+#loadpage
+{
+
+	position: relative;
+	top: 142px;
+	border-bottom: 4px solid rgb(92, 173, 211);
+	width: 90px;
 }
 #arrowright
 {
@@ -322,7 +332,6 @@ element*/
 }
 .petitrond1
 {
-	
 	height: 10px;
 	width: 10px;
 	border-radius: 50%;
@@ -331,6 +340,7 @@ element*/
 	top: 28px;
 	right: 10px;
 }
+
 #article1
 {
 	margin: 0 auto;
@@ -493,6 +503,7 @@ element*/
 	color: #777b80;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .selection{
@@ -556,6 +567,7 @@ element*/
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
+    padding-bottom: 50px;
 	/*Porpriétés du groupe d'images*/
 }
 
@@ -640,17 +652,18 @@ figcaption
 	font-family: 'robotoblack';
 	font-size: 24px;
 	margin-bottom: 0px;
+	padding-top: 15px;
 }
 #contact p
 {
 	font-family: 'robotoblack';
-	font-size: 16px;
+	font-size: 15px;
 	color: #777b80;
 }
 #contact p strong
 {
 	font-size: 15px;
-	color: black;
+	color: #777b80;
 }
 #map
 {
@@ -669,14 +682,22 @@ iframe
 #formulaire2
 {
 	
-	width: 345px;
-	height: 500px;
+	width: 355px;
+	height: 510px;
 	background-color: rgba(255, 255, 255, 0.7);
 	position: relative;
 	left: 850px;
-	bottom: 550px;
+	bottom: 590px;
 	/*Formulaire de contact*/
 }
+input#Name, #Email, #Subject, #Message
+{
+	font-family: robotomedium;
+	font-size: 13px;
+	padding-left: 10px;
+
+}
+
 
 #formulaire2 h3, h4, p
 {
@@ -684,7 +705,7 @@ iframe
 }
 #Name, #Email, #Subject
 {
-	width: 89%;
+	width: 87%;
     height: 26px;
     margin-bottom: 18px;
     margin-left: 17px;
@@ -694,7 +715,7 @@ iframe
 }
 #Message
 {
-	width: 89%;
+	width: 87%;
 	height: 150px;
 	margin-bottom: 12px;
 	margin-left: 17px;
@@ -731,9 +752,8 @@ iframe
 	}
 	nav li
 	{
-		margin-right: 20px;
-		margin-left: 15px;
 		font-size: 35px;
+		margin-left: 60px;
 	}
 	header
 	{
@@ -741,20 +761,19 @@ iframe
 	}
 	#bande
 	{
-
-	border: 1px solid black;
     background-color: white;
     position: fixed;
-    width: auto;
+    width: 100%;
     height: auto;
-    right: 12%;
     top: 0px;
-    padding-right: 25px;
-
 	}
 	#logo
 	{
-		margin-left: 150px;
+		margin-left: 200px;
+	}
+	#logo img
+	{
+		width: 400px;
 	}
 	#image_fond1
 	{
@@ -763,6 +782,10 @@ iframe
 		height: 400px;
 		background-repeat: no-repeat;
 		background-size: cover;
+	}
+	#loadpage
+	{
+		top: 32px;
 	}
 	#arrowleft
 	{
@@ -1016,14 +1039,51 @@ iframe
 					/*Fin contact et Map*/
 
 
-/* MEDIA QUERIES (moyenne definition)*/
+/* MEDIA QUERIES (grande definition)*/
 
 
-@media screen and (min-width: 980px) and (max-width: 1280px)
+@media screen and (min-width: 1370px) and (max-width: 2000px)
 {
-
-	#projets
+	#accueil
 	{
-		height: auto;
+		width: 103.5%;
 	}
+	#arrowright
+	{
+		right: -3.5%;
+	}
+	nav
+	{
+		margin-left: 550px;
+	}
+	article
+		{
+			width: 80%;
+			margin:auto;
+		}
+	#projets
+		{
+			width: 130%;
+			margin-left: -190px;
+		}
+	#onglets
+		{
+			margin-bottom: 50px;
+		}
+	#groupeimage
+		{
+			width: 80%;
+			margin: auto;
+		}
+	#contact
+		{
+			width: 130%;
+			margin-left: -190px;
+		}
+	#formulaire2
+		{
+			width: 22%;
+			margin-left: 350px;
+		}
+
 }
