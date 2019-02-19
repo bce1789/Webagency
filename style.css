@@ -682,12 +682,13 @@ iframe
 #contact_form
 {
 	
-	width: 355px;
+	width: 375px;
 	height: 510px;
 	background-color: rgba(255, 255, 255, 0.7);
 	position: relative;
 	left: 850px;
 	bottom: 590px;
+	padding-left: 5px;
 	/*Formulaire de contact*/
 }
 input#Name, #Email, #Subject, #Message
@@ -1058,13 +1059,12 @@ input#Name, #Email, #Subject, #Message
 	}
 	#section_1
 		{
-			width: 80%;
+			width: 60%;
 			margin:auto;
 		}
 	#projects
 		{
-			width: 125%;
-			margin-left: -190px;
+			width: 100%;
 		}
 	#tabs
 		{
@@ -1077,13 +1077,12 @@ input#Name, #Email, #Subject, #Message
 		}
 	#contact
 		{
-			width: 125%;
-			margin-left: -190px;
+			width: 100%;
 		}
 	#contact_form
 		{
-			width: 22%;
-			margin-left: 350px;
+			width: 450px;
+			margin-left: 50px;
 		}
 
 }
