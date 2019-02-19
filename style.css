@@ -124,7 +124,7 @@ header
 {
 	height: 60px;
 }						
-#bande /*LOGO PLUS MENU DEROULANT*/
+#menu /*LOGO PLUS MENU DEROULANT*/
 {
 
 	
@@ -185,14 +185,14 @@ nav li
 }
 
 /*Page principale présentation de l'entreprise*/
-#accueil
+#home
 {
 	display: flex;
 	height: auto;
 	
 
 }
-#accueil h1
+#home h1
 {
 	display: inline-block;
 	width: 600px;
@@ -201,7 +201,7 @@ nav li
 	margin-bottom: 2px;
 	font-family: 'robotobold';
 }
-#accueil p
+#home p
 {
 	
 	width: 430px;
@@ -211,7 +211,7 @@ nav li
 	font-size: 16px;
 }
 
-#image_fond1  
+#picture1  
 {
 	background-image: url("webagency_images/images/slider/bg1.jpg");
 	width: 100%;
@@ -262,7 +262,7 @@ element*/
 	 background-color: black;
 	 opacity: 0.4;
 }
-#accueil input
+#home input
 {
 	display: flex;
 	margin-left: 0px;
@@ -278,11 +278,11 @@ element*/
 	border-right: none;
 	/*Propriétés du bouton "plus d'info"*/
 }
-#accueil strong
+#home strong
 {
 	color: rgb(92, 173, 211);
 }
-#accueil
+#home
 {
 	color: white;
 }
@@ -294,7 +294,7 @@ element*/
 	margin-bottom: 50px;
 	/*Div qui contient l'ensemble de la page service hors introduction*/
 }
-#nosservices 
+#services 
 	{
     display: flex;
     flex-direction: column;
@@ -302,21 +302,21 @@ element*/
     height: 275px;
     /*Div regroupant la partie introduction de la page*/
     }
-.alpha {
+.main_block {
 	display: flex;
 	margin-top: 30px;
 	font-family: 'robotomedium';
 	font-size: 16px;
 	color: #777b80;
-	/*Div regroupant les div "beta", "charlie" et "petitrond1"
+	/*Div regroupant les div "second_block", "last_block" et "small_circle1"
 	pour la création des logos devant chaque spécialité */
 }
 
-.beta 
+.second_block 
 {
 	position: relative;
 }
-.charlie
+.last_block
 {
 	font-size: 25px;
 	color: rgb(92, 173, 211);
@@ -330,7 +330,7 @@ element*/
 	margin-right: 15px;
 	
 }
-.petitrond1
+.small_circle1
 {
 	height: 10px;
 	width: 10px;
@@ -341,7 +341,7 @@ element*/
 	right: 10px;
 }
 
-#article1
+#section_1
 {
 	margin: 0 auto;
 	width: 80%;
@@ -349,7 +349,7 @@ element*/
 }
 						/* LOGO*/
 						/*Création du logo qui prend place sous le titre de la page*/
-.barre1
+.line1
 {
 
 	height: 2px;
@@ -358,7 +358,7 @@ element*/
 
 
 }
-.barre2
+.line2
 {
 
 	height: 2px;
@@ -366,7 +366,7 @@ element*/
 	background-color: rgb(243, 243, 243);
 
 }
-.logorond
+.round_logo
 {
 	display: flex;
 	height: 25px;
@@ -377,7 +377,7 @@ element*/
 
 
 }
-.petitrond
+.small_circle
 {
 
 	display: inline-block;
@@ -389,7 +389,7 @@ element*/
 }
 						/*LOGO FIN*/
 
-#imagemac img
+#mac_picture img
 {
 
 	width: 490px;
@@ -399,14 +399,14 @@ element*/
 
 }
 
-#article1 h2
+#section_1 h2
 {
 	margin-bottom: 0px;
 	font-family: 'robotoblack';
 	font-size: 40px;
 
 }
-#article1 p
+#section_1 p
 {
 	width: 400px;
 	font-family: 'robotomedium';
@@ -417,13 +417,13 @@ element*/
 	
 }
 
-#article1 strong
+#section_1 strong
 {
 	font-size: 18px;
 	color: black;
 }
-								/*Partie 3 NOS PROJETS*/
-#onglets{
+								/*Partie 3 NOS projects*/
+#tabs{
 	display: flex;
 	margin: 0 auto;
 	width: 100%;
@@ -431,9 +431,9 @@ element*/
     flex-direction: column;
     align-items: center;
     height: 250px;
-    /*Div regroupant les differents onglets de présentation des projets*/
+    /*Div regroupant les differents onglets de présentation des projects*/
 }
-#entête {
+#start {
 	display: flex;
 	margin: 0 auto;
 	width: 80%;
@@ -444,20 +444,20 @@ element*/
     /*Titre + Logo*/
 }
 	/*Logo sous le titre*/
-#barre3
+#line3
 {
 	height: 2px;
 	width: 60px;
 	background-color: rgb(220, 220, 220);
 
 }
-#barre4
+#line4
 {
 	height: 2px;
 	width: 60px;
 	background-color: rgb(220, 220, 220);
 }
-#logorond2
+#round_logo2
 {
 	display: flex;
 	height: 25px;
@@ -466,7 +466,7 @@ element*/
 	align-items: center;
 	margin-bottom: 20px;
 }
-#petitrond2
+#small_circle2
 {
 
 	display: inline-block;
@@ -478,7 +478,7 @@ element*/
 	
 }
 	/*Fin du logo sous le titre*/
-#projets
+#projects
 {
 	width: auto;
 	height: auto;
@@ -488,14 +488,14 @@ element*/
 	/*Propriétés de la page en taille et couleur de fond*/
 }
 
-#projets h2
+#projects h2
 {
 	margin-bottom: 0px;
 	font-family: 'robotoblack';
 	font-size: 40px;
 }
 
-#projets p
+#projects p
 {
 	width: 400px;
 	font-family: 'robotomedium';
@@ -514,10 +514,10 @@ element*/
 	margin-top: 20px;
    border-radius: 5px;
    background-color: rgb(230, 230, 230);
-   /*Div regroupant "triangle", "iconetriangle" et "fas fa-caret-down" pour la gestion du menu des projets*/
+   /*Div regroupant "selector", "row_down" et "fas fa-caret-down" pour la gestion du menu des projects*/
 }
 
-.triangle
+.selector
 {
 	display: flex;
 	width: 300px;
@@ -529,23 +529,23 @@ element*/
 	font-family: robotomedium;
 	color: #777b80;
 	font-size: 16px;
-	/*Div comprenant le texte et le triangle associés lors du survol de la case*/
+	/*Div comprenant le texte et le selector associés lors du survol de la case*/
 }
-/*Propriétés d'ensemble du comportement du triangle et de la couleur de la case lors du survol*/
-.triangle:hover
+/*Propriétés d'ensemble du comportement du selector et de la couleur de la case lors du survol*/
+.selector:hover
 {
 	background-color: rgb(92, 173, 211);
 	color: white;
 }
 
-.triangle:hover > .iconetriangle
+.selector:hover > .row_down
 {
 	color: rgb(92, 173, 211);
 	opacity:1;
 }
 
 
-.iconetriangle
+.row_down
 {
 	display:flex;
 	height: 30px;
@@ -557,11 +557,11 @@ element*/
 	opacity: 0;
 }
 
-/* FIN Propriétés d'ensemble du comportement du triangle et de la couleur de la case lors du survol*/
+/* FIN Propriétés d'ensemble du comportement du selector et de la couleur de la case lors du survol*/
 
 
 
-#groupeimage
+#picture_group
 {
 	display: flex;
     flex-wrap: wrap;
@@ -578,7 +578,7 @@ element*/
 }
 
 figure
-/*Groupement image et liseret*/
+/*Groupement image et border*/
 {
 	display: flex;
 	flex-direction: column;
@@ -586,7 +586,7 @@ figure
 
 }
 figcaption
-/*permet d'intégrer un liseret et un texte*/
+/*permet d'intégrer un border et un texte*/
 {
 	width: 90%;
     position: relative;
@@ -595,7 +595,7 @@ figcaption
     left: 30px;
 
 }
-.liseret
+.border
 {
 	
 	align-items: center;
@@ -608,12 +608,12 @@ figcaption
     
 	
 }
-.liseret:hover
+.border:hover
 {
 	opacity: 0.8;
 }
 
-.liseret h3
+.border h3
 {
 	margin-left: 15px;
 	margin-top: 4px;
@@ -679,7 +679,7 @@ iframe
     opacity: 0.8;
     height: 600px;
 }
-#formulaire2
+#contact_form
 {
 	
 	width: 355px;
@@ -699,7 +699,7 @@ input#Name, #Email, #Subject, #Message
 }
 
 
-#formulaire2 h3, h4, p
+#contact_form h3, h4, p
 {
 	margin-left: 19px;
 }
@@ -739,7 +739,7 @@ input#Name, #Email, #Subject, #Message
 
 /* MEDIA QUERIES (petite definition)*/
 
-@media screen and (max-width: 980px)
+@media screen and (max-width: 1000px)
 {
 	/*en tête*/
 			nav ul
@@ -759,7 +759,7 @@ input#Name, #Email, #Subject, #Message
 	{
 		height: 155px;
 	}
-	#bande
+	#menu
 	{
     background-color: white;
     position: fixed;
@@ -775,7 +775,7 @@ input#Name, #Email, #Subject, #Message
 	{
 		width: 400px;
 	}
-	#image_fond1
+	#picture1
 	{
 		background-image: url("webagency_images/images/slider/bg1.jpg");
 		width: 100%;
@@ -797,7 +797,7 @@ input#Name, #Email, #Subject, #Message
 		right:0%;
 		top: 280px;
 	}
-	#accueil h1
+	#home h1
 	{
 		font-size: 40px;
 		width: auto;
@@ -805,13 +805,13 @@ input#Name, #Email, #Subject, #Message
 		margin-top: 40px;
 		
 	}
-	#accueil p
+	#home p
 	{
 		font-size: 35px;
 		width: auto;
 		margin-left: 50px;
 	}
-	#accueil input
+	#home input
 	{
 		font-size: 25px;
 		width: auto;
@@ -822,7 +822,7 @@ input#Name, #Email, #Subject, #Message
 	/*fin en tête*/
 
 				/*NOS SERVICES*/
-	#article1
+	#section_1
 	{
 		height: auto;
 	}
@@ -831,20 +831,20 @@ input#Name, #Email, #Subject, #Message
 		flex-direction: column;
 		height: auto;
 	}
-	.logorond
+	.round_logo
 	{
 		margin-top: 5px;
 	}
-	#imagemac{
+	#mac_picture{
 		margin-left: 20%;
 		margin-top: 150px;
 	}
-		#article1 h2
+		#section_1 h2
 	{
 		width: auto;
 		font-size: 50px;
 	}
-	#article1 p
+	#section_1 p
 	{
 		font-size: 40px;
 		justify-content: center;
@@ -853,18 +853,18 @@ input#Name, #Email, #Subject, #Message
     	margin-left: auto;
     	margin-bottom: 30px;
 	}
-	#article1 strong
+	#section_1 strong
 	{
 		font-size: 40px;
 	}
-	.alpha
+	.main_block
 	{
 		font-size: 40px;
 		width: 100%;
 		height: 100%;
 		align-items: start;
 	}
-	.charlie
+	.last_block
 	{
 		font-size: 50px;
 		margin-right: 30px;
@@ -872,7 +872,7 @@ input#Name, #Email, #Subject, #Message
 		height: 70px;
 		width: 70px;
 	}
-	.petitrond1
+	.small_circle1
 	{
 		right: 20px;
 		top: 30px;
@@ -882,9 +882,9 @@ input#Name, #Email, #Subject, #Message
 	}
 	/*FIN SERVICES*/
 
-	/*PROJETS*/
+	/*projects*/
 
-	#projets
+	#projects
 	{
 		height: auto;
 	}
@@ -892,12 +892,12 @@ input#Name, #Email, #Subject, #Message
 	figure{
 		margin-bottom: -50px;
 	}
-	#projets h2
+	#projects h2
 	{
 		font-size: 50px;
 		margin-bottom: auto;
 	}
-	#projets p
+	#projects p
 	{
 		font-size: 40px;
 		margin-top: 150px;
@@ -912,7 +912,7 @@ input#Name, #Email, #Subject, #Message
 		border-radius: 10px;
 		margin-bottom: 100px;
 	}
-	.triangle
+	.selector
 	{
 		height: 100px;
 		width: 350px;
@@ -921,7 +921,7 @@ input#Name, #Email, #Subject, #Message
 		font-family:'robotoblack';
 
 	}
-	.iconetriangle
+	.row_down
 	{
 		opacity:0;
 		position: relative;
@@ -929,13 +929,13 @@ input#Name, #Email, #Subject, #Message
 		right: 95px;
 		top: 5px;
 	}
-	.iconetriangle:hover
+	.row_down:hover
 	{
 	color: rgb(92, 173, 211);
 	opacity:1;
 
 	}
-	#groupeimage
+	#picture_group
 	{
 		margin-top: 190px;
 	}
@@ -946,14 +946,14 @@ input#Name, #Email, #Subject, #Message
 		padding-right:30px;
 		margin-bottom: 0px;
 	}
-	.liseret{
+	.border{
 		width: 700px;
 		height: 100px;
 		position: relative;
 		bottom: 37px;
 		opacity: 1;
 	}
-	.liseret h3
+	.border h3
 	{
 		font-size: 28px;
 		padding-top: 5px;
@@ -967,10 +967,10 @@ input#Name, #Email, #Subject, #Message
 	
 		
 	}
-	/*FIN PROJETS*/
+	/*FIN projects*/
 
 					/*Contact et Map*/
-	#formulaire2
+	#contact_form
 	{
 		position: static;
 		display: flex;
@@ -981,13 +981,13 @@ input#Name, #Email, #Subject, #Message
 		border: 1px solid black;
 		background-color: rgb(245, 245, 245);
 	}
-	#formulaire2 p
+	#contact_form p
 	{
 		
 		font-size: 40px;
 	}
 	
-	#formulaire2 h3, h4, p
+	#contact_form h3, h4, p
 	{
 		
 		margin-left: 32%;
@@ -1015,14 +1015,18 @@ input#Name, #Email, #Subject, #Message
 		font-size: 40px;
 		padding-left: 15px;
 	}
+	input#Name, #Email, #Subject, #Message
+	{
+		font-size: 40px;
+	}
 	#Name, #Email, #Subject
 	{
 		height: 70px;
-		margin-left: 30px;
+		margin-left: 50px;
 	}
 	#Message, #send
 	{
-		margin-left: 30px;
+		margin-left: 50px;
 	}
 	#send
 	{
@@ -1030,7 +1034,7 @@ input#Name, #Email, #Subject, #Message
 		width: 360px;
 		height: 80px;
 		border-radius: 5px;
-		
+		margin-top: 25px;
 	}
 
 
@@ -1042,45 +1046,41 @@ input#Name, #Email, #Subject, #Message
 /* MEDIA QUERIES (grande definition)*/
 
 
-@media screen and (min-width: 1370px) and (max-width: 2000px)
+@media screen and (min-width: 1370px) and (max-width: 2500px)
 {
-	#accueil
+	#home
 	{
-		width: 103.5%;
-	}
-	#arrowright
-	{
-		right: -3.5%;
+		width: 100%;
 	}
 	nav
 	{
 		margin-left: 550px;
 	}
-	article
+	#section_1
 		{
 			width: 80%;
 			margin:auto;
 		}
-	#projets
+	#projects
 		{
-			width: 130%;
+			width: 125%;
 			margin-left: -190px;
 		}
-	#onglets
+	#tabs
 		{
 			margin-bottom: 50px;
 		}
-	#groupeimage
+	#picture_group
 		{
-			width: 80%;
+			width: 70%;
 			margin: auto;
 		}
 	#contact
 		{
-			width: 130%;
+			width: 125%;
 			margin-left: -190px;
 		}
-	#formulaire2
+	#contact_form
 		{
 			width: 22%;
 			margin-left: 350px;
