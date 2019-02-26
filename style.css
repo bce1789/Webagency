@@ -347,23 +347,22 @@ nav li
 }
 						/* LOGO*/
 						/*Création du logo qui prend place sous le titre de la page*/
-.line1
+.line
+{
+
+	height: 2px;
+	width: 60px;
+	background-color: rgb(220, 220, 220);
+
+
+}
+/*.line2
 {
 
 	height: 2px;
 	width: 60px;
 	background-color: rgb(243, 243, 243);
-
-
-}
-.line2
-{
-
-	height: 2px;
-	width: 60px;
-	background-color: rgb(243, 243, 243);
-
-}
+}*/
 .round_logo
 {
 	display: flex;
@@ -444,19 +443,19 @@ nav li
     /*Titre + Logo*/
 }
 	
-#line3
+/*#line
 {
 	height: 2px;
 	width: 60px;
 	background-color: rgb(220, 220, 220);
 
 }
-#line4
+/*#line4
 {
 	height: 2px;
 	width: 60px;
 	background-color: rgb(220, 220, 220);
-}
+}*/
 #round_logo2
 {
 	display: flex;
@@ -466,18 +465,6 @@ nav li
 	align-items: center;
 	margin-bottom: 20px;
 }
-#small_circle2
-{
-
-	display: inline-block;
-	height: 14px;
-	width: 14px;
-	border-radius: 50%;
-	background-color: rgb(92, 173, 211);
-	border: 3px solid white;
-	
-}
-	
 #projects
 {
 	width: auto;
@@ -716,7 +703,6 @@ input#Name, #Email, #Subject, #Message
 	font-size: 14px;
 	border-radius: 4px;
 	border-color: rgb(92, 173, 210);
-	box-shadow: 3px;
 	margin-left: 15px;
 	border-right: none;
 }
@@ -1032,40 +1018,40 @@ input#Name, #Email, #Subject, #Message
 
 @media screen and (min-width: 1370px)
 {
-		#home
-		{
-			width: 100%;
-		}
-		nav
-		{
-			margin-left: 550px;
-		}
+	#home
+	{
+		width: 100%;
+	}
+	nav
+	{
+		margin-left: 550px;
+	}
 	#section_1
-		{
-			width: 60%;
-			margin:auto;
-		}
+	{
+		width: 60%;
+		margin:auto;
+	}
 	#projects
-		{
-			width: 100%;
-		}
+	{
+		width: 100%;
+	}
 	#tabs
-		{
-			margin-bottom: 50px;
-		}
+	{
+		margin-bottom: 50px;
+	}
 	#picture_group
-		{
-			width: 70%;
-			margin: auto;
-		}
+	{
+		width: 70%;
+		margin: auto;
+	}
 	#contact
-		{
-			width: 100%;
-		}
+	{
+		width: 100%;
+	}
 	#contact_form
-		{
-			width: 450px;
-			margin-left: 50px;
-		}
+	{
+		width: 450px;
+		margin-left: 50px;
+	}
 
 }
