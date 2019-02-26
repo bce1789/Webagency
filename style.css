@@ -109,16 +109,11 @@
 
 }
 
-/*FIN police*/
-
-/*dim page*/
-
+						/*FIN police*/
  body
  {
  	margin: 0
  }
- /* fin dim page*/
-
 						/* EN TÊTE */
 header
 {
@@ -126,26 +121,18 @@ header
 }						
 #menu 			/*LOGO PLUS MENU DEROULANT*/
 {
-
-	
 	background-color: white;
 	position: fixed;
 	width: 100%;
 	height: 75px;
 	margin-bottom: 50px;
 	z-index: 1;
-	
 }
-
 #logo 
 {
-	
 	padding-top: 10px;
 	padding-left: 85px;
-	
 }
-
-
 nav ul
 {
 	display: flex;
@@ -160,7 +147,6 @@ a:hover
 	border-color: rgb(92, 173, 211);
 	padding-top: 29px;
 	border-top-width: 45px;
-
 }
 a:visited
 {
@@ -173,7 +159,6 @@ a
 }
 nav li
 {
-
 	margin-right: 25px;
 	list-style-type: none;
 	justify-content: center;
@@ -183,14 +168,11 @@ nav li
 	font-weight: bold;
 	text-decoration: none;
 }
-
 				/*PAGE PRINCIPAL PRESENTATION DE L'ENTREPRISE*/
 #home
 {
 	display: flex;
 	height: auto;
-	
-
 }
 #home h1
 {
@@ -210,7 +192,6 @@ nav li
 	font-family: 'robotobold';
 	font-size: 16px;
 }
-
 #picture1  
 {
 	background-image: url("webagency_images/images/slider/bg1.jpg");
@@ -223,7 +204,6 @@ nav li
 }
 #loadpage
 {
-
 	position: relative;
 	top: 142px;
 	border-bottom: 4px solid rgb(92, 173, 211);
@@ -290,16 +270,15 @@ nav li
 	display: flex;
 	height: auto;
 	margin-bottom: 50px;
-	/*Div qui contient l'ensemble de la page service hors introduction*/
+	
 }
 #services 
-	{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 275px;
-    /*Div regroupant la partie introduction de la page*/
-    }
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 275px;
+}
 .main_block 
 {
 	display: flex;
@@ -307,8 +286,6 @@ nav li
 	font-family: 'robotomedium';
 	font-size: 16px;
 	color: #777b80;
-	/*Div regroupant les div "second_block", "last_block" et "small_circle1"
-	pour la création des logos devant chaque spécialité */
 }
 
 .second_block 
@@ -353,16 +330,7 @@ nav li
 	height: 2px;
 	width: 60px;
 	background-color: rgb(220, 220, 220);
-
-
 }
-/*.line2
-{
-
-	height: 2px;
-	width: 60px;
-	background-color: rgb(243, 243, 243);
-}*/
 .round_logo
 {
 	display: flex;
@@ -373,25 +341,20 @@ nav li
 }
 .small_circle
 {
-
 	display: inline-block;
 	height: 14px;
 	width: 14px;
 	border-radius: 50%;
 	background-color: rgb(92, 173, 211);
 	border: 4px solid white;
-
 }
 						/*LOGO FIN*/
-
 #mac_picture img
 {
-
 	width: 490px;
 	height: 300px;
 	margin-top: -30px;
 	margin-right: 60px;
-
 }
 
 #section_1 h2
@@ -399,8 +362,8 @@ nav li
 	margin-bottom: 0px;
 	font-family: 'robotoblack';
 	font-size: 40px;
-
 }
+
 #section_1 p
 {
 	width: 400px;
@@ -408,8 +371,6 @@ nav li
 	font-size: 16px;
 	color: #777b80;
 	text-align: center;
-	
-	
 }
 
 #section_1 strong
@@ -427,7 +388,6 @@ nav li
     flex-direction: column;
     align-items: center;
     height: 225px;
-    /*Div regroupant les differents onglets de présentation des projects*/
 }
 #start 
 {
@@ -438,22 +398,7 @@ nav li
     flex-direction: column;
     align-items: center;
     height: 250px;
-    /*Titre + Logo*/
 }
-	
-/*#line
-{
-	height: 2px;
-	width: 60px;
-	background-color: rgb(220, 220, 220);
-
-}
-/*#line4
-{
-	height: 2px;
-	width: 60px;
-	background-color: rgb(220, 220, 220);
-}*/
 #round_logo2
 {
 	display: flex;
@@ -461,15 +406,12 @@ nav li
 	width: 150px;	
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 20px;
 }
 #projects
 {
 	width: auto;
 	height: auto;
 	background-color: rgb(245, 245, 245);
-	
-	/*Propriétés de la page en taille et couleur de fond*/
 }
 
 #projects h2
@@ -493,15 +435,13 @@ nav li
 .selection
 {
 	display: flex;
-	height: 71px;
+	height: 90px;
 	width: 550px;
 	margin-bottom: -25px;
 	margin-top: 20px;
-   border-radius: 5px;
-   background-color: rgb(230, 230, 230);
-   /*Div regroupant "selector", "row_down" et "fas fa-caret-down" pour la gestion du menu des projets*/
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
 }
-
 .selector
 {
 	display: flex;
@@ -514,21 +454,17 @@ nav li
 	font-family: robotomedium;
 	color: #777b80;
 	font-size: 16px;
-	/*Div comprenant le texte et le selector associés lors du survol de la case*/
 }
 .selector:hover
 {
 	background-color: rgb(92, 173, 211);
 	color: white;
 }
-
 .selector:hover > .row_down
 {
 	color: rgb(92, 173, 211);
 	opacity:1;
 }
-
-
 .row_down
 {
 	display:flex;
@@ -540,29 +476,24 @@ nav li
 	right: 55px;
 	opacity: 0;
 }
-
-
 #picture_group
 {
 	display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 60px;
     padding-bottom: 50px;
 }
-
 .image
 {
 	width: 280px;
     height: 180px;
 }
-
 figure
 {
 	display: flex;
 	flex-direction: column;
 	margin-right: -15px;
-
 }
 figcaption
 {
@@ -571,11 +502,9 @@ figcaption
     bottom: 63px;
     height: auto;
     left: 30px;
-
 }
 .border
 {
-	
 	align-items: center;
     position: absolute;
     bottom: -63px;
@@ -612,21 +541,18 @@ figcaption
 	bottom: 45px;
 	right: 20px;	
 }
-
 				/*CONTACT ET MAP*/
 #contact
 {
-	
 	width: 100%;
 	height: 200px;	
-	
+	position: relative;
 }
 #contact h3
 {
 	font-family: 'robotoblack';
 	font-size: 24px;
 	margin-bottom: 0px;
-	padding-top: 15px;
 }
 #contact p
 {
@@ -641,7 +567,6 @@ figcaption
 }
 #map
 {
-	
 	width: 100%;
 	background-color: rgb(0, 101, 149);
 	height: 600px;
@@ -653,14 +578,12 @@ iframe
 }
 #contact_form
 {
-	
-	width: 375px;
+	width: 335px;
 	height: 510px;
 	background-color: rgba(255, 255, 255, 0.7);
-	position: relative;
-	left: 850px;
-	bottom: 590px;
-	padding-left: 5px;
+	position: absolute;
+	top: 50px;
+	right: 100px;
 }
 input#Name, #Email, #Subject, #Message
 {
@@ -680,7 +603,6 @@ input#Name, #Email, #Subject, #Message
     margin-left: 17px;
     border: 1px solid #cccccc/*bordure grise*/;
     border-radius: 3px;
-   
 }
 #Message
 {
@@ -704,9 +626,7 @@ input#Name, #Email, #Subject, #Message
 	margin-left: 15px;
 	border-right: none;
 }
-
 					/* MEDIA QUERIES (petite definition)*/
-
 @media screen and (max-width: 1000px)
 {
 					/*EN TÊTE*/
@@ -729,11 +649,11 @@ input#Name, #Email, #Subject, #Message
 	}
 	#menu
 	{
-    background-color: white;
-    position: fixed;
-    width: 100%;
-    height: auto;
-    top: 0px;
+	    background-color: white;
+	    position: fixed;
+	    width: 100%;
+	    height: auto;
+	    top: 0px;
 	}
 	#logo
 	{
@@ -771,7 +691,6 @@ input#Name, #Email, #Subject, #Message
 		width: auto;
 		margin-left: 50px;
 		margin-top: 40px;
-		
 	}
 	#home p
 	{
@@ -783,10 +702,7 @@ input#Name, #Email, #Subject, #Message
 	{
 		font-size: 25px;
 		width: auto;
-
 	}
-
-
 					/*FIN EN TÊTE*/
 
 					/*NOS SERVICES*/
@@ -794,14 +710,11 @@ input#Name, #Email, #Subject, #Message
 	{
 		height: auto;
 	}
-	.firstpage{
+	.firstpage
+	{
 		display: flex;
 		flex-direction: column;
 		height: auto;
-	}
-	.round_logo
-	{
-		margin-top: 5px;
 	}
 	#mac_picture{
 		margin-left: 20%;
@@ -845,18 +758,15 @@ input#Name, #Email, #Subject, #Message
 		right: 20px;
 		top: 30px;
 		height: 13px;
-		width: 13px;
-		
+		width: 13px;	
 	}
 				/*FIN SERVICES*/
 
 				/*NOS PROJETS*/
-
 	#projects
 	{
 		height: auto;
 	}
-
 	figure
 	{
 		margin-bottom: -50px;
@@ -899,9 +809,8 @@ input#Name, #Email, #Subject, #Message
 	}
 	.row_down:hover
 	{
-	color: rgb(92, 173, 211);
-	opacity:1;
-
+		color: rgb(92, 173, 211);
+		opacity:1;
 	}
 	#picture_group
 	{
@@ -914,7 +823,8 @@ input#Name, #Email, #Subject, #Message
 		padding-right:30px;
 		margin-bottom: 0px;
 	}
-	.border{
+	.border
+	{
 		width: 700px;
 		height: 100px;
 		position: relative;
@@ -926,14 +836,12 @@ input#Name, #Email, #Subject, #Message
 		font-size: 28px;
 		padding-top: 5px;
 	}
-	.eye{
-		
-	height: 65px;
-	width: 65px;
-	font-size: 25px;
-	bottom: 65px;
-	
-		
+	.eye
+	{	
+		height: 65px;
+		width: 65px;
+		font-size: 25px;
+		bottom: 65px;	
 	}
 				/*FIN PROJETS*/
 
@@ -951,18 +859,14 @@ input#Name, #Email, #Subject, #Message
 	}
 	#contact_form p
 	{
-		
 		font-size: 40px;
 	}
-	
 	#contact_form h3, h4, p
 	{
-		
 		margin-left: 32%;
 		width: 50%;
 		align-items:center;
-		justify-content: center;	
-
+		justify-content: center;
 	}
 	#contact h3
 	{
@@ -975,8 +879,7 @@ input#Name, #Email, #Subject, #Message
 	}
 	#cadre
 	{
-		width: 100%;
-		
+		width: 100%;	
 	}
 	input
 	{
@@ -1010,10 +913,7 @@ input#Name, #Email, #Subject, #Message
 }
 			/*FIN CONTACT ET MAP*/
 
-
 			/* MEDIA QUERIES (grande definition)*/
-
-
 @media screen and (min-width: 1370px)
 {
 	#home
@@ -1022,7 +922,7 @@ input#Name, #Email, #Subject, #Message
 	}
 	nav
 	{
-		margin-left: 550px;
+		margin-left: 150px;
 	}
 	#section_1
 	{
